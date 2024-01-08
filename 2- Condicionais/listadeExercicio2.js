@@ -13,9 +13,9 @@ IMC em adultos Condição:
 - Acima de 40 = Obesidade Grave;
 */
 
-const peso = 105;
-const altura = 1.60;
-const imc = peso / (altura * altura);
+const peso = 65;
+const altura = 1.70;
+const imc = peso / Math.pow(altura, 2); //Potência de altura ao quadrado.
 
 if (imc < 18.5){
     console.log("Abaixo do peso.")
