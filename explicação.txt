@@ -1,0 +1,20 @@
+
+1. **Declaração de Variáveis:**
+   - `precoEtanol`: Representa o preço do etanol por litro.
+   - `precoGasolina`: Representa o preço da gasolina por litro.
+   - `gastoMedioPorLitro`: Representa o consumo médio de combustível por litro.
+   - `distanciaEmKm`: Representa a distância da viagem em quilômetros.
+   - `tipoCombustivel`: Representa o tipo de combustível, inicializado como "Etanol".
+
+2. **Cálculo do Consumo de Litros:**
+   - `litrosConsumidos`: Calcula a quantidade de litros de combustível consumidos durante a viagem com base na distância e no consumo médio por litro.
+
+3. **Condicional (`if` e `else`):**
+   - Verifica se o `tipoCombustivel` é igual a "Etanol".
+   - Se for verdadeiro, calcula o custo (`valorGasto`) multiplicando os litros consumidos pelo preço do etanol e imprime o resultado no console com `toFixed(2)`, que limita o número de casas decimais a 2.
+   - Se for falso (ou seja, se o combustível não for etanol), calcula o custo usando o preço da gasolina e imprime o resultado no console.
+
+Em resumo, o código determina se a viagem será feita com etanol ou gasolina, calcula o custo com base no tipo de combustível, distância e consumo médio, e imprime o resultado no console. 
+
+
+
