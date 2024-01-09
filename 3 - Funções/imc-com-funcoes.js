@@ -31,13 +31,20 @@ function classificarImc(imc){
     }
 }
 
-function main(){
-    const peso = 80;
+
+//Será sempre o código principal. 
+(function (){
+    const peso = 75;
     const altura = 1.75;
     const imc = calcularImc(peso, altura);
     console.log(classificarImc(imc));
-} 
-main();
+})()
+
+main = function(){
+  console.log(1); 
+}
+
+
 
 
 
